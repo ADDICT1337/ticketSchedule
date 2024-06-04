@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#sessions, #seats {
+    margin-top: 20px;
+}
+
+#session-list button, .seat {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#session-list button {
+    background-color: #007BFF;
+    color: white;
+}
+
+#session-list button.archived {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.seat {
+    background-color: #28a745;
+    color: white;
+}
+
+.seat.booked {
+    background-color: #dc3545;
+    cursor: not-allowed;
+}
